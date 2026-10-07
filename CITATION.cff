@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmark data or repository in your research, please cite our review paper in Digital Discovery."
+message: "If you use this benchmark data or repository in your research, please cite our review."
 title: "Data and Benchmark Repository: Integrating Molecular Orbital Theory with Machine Learning"
 authors:
   - family-names: "Mishra"
@@ -10,7 +10,5 @@ authors:
     given-names: "Anisha"
     email: "anishagarg2806@gmail.com"
     affiliation: "Department of Chemistry, School of Advanced Sciences and Languages (SASL), Vellore Institute of Technology (VIT), Bhopal, Madhya Pradesh 466114, India"
-journal: "Digital Discovery"
-publisher: "Royal Society of Chemistry"
-year: 2026
+type: dataset
 url: "https://github.com/vmishra06-cdk/Data---MOT-ML-Review"

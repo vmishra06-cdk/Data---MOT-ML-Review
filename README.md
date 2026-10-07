@@ -1,21 +1,19 @@
 # Data and Benchmark Repository: Integrating Molecular Orbital Theory with Machine Learning
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Journal: Digital Discovery (RSC)](https://img.shields.io/badge/Journal-Digital%20Discovery%20(RSC)-teal.svg)](https://pubs.rsc.org/en/journals/journalissues/dd)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 
-This repository hosts the official curated benchmarks, electronic structure datasets, and metadata catalogs accompanying the review paper:
+This repository hosts the official curated benchmarks, electronic structure datasets, and bibliographic catalogs accompanying the review:
 
 > **"Integrating Molecular Orbital Theory with Machine Learning: Practical Frameworks, Operator Approximations, and Physical Symmetries"**  
 > **Authors:** [Vedant Mishra](mailto:vedantmishra0605@gmail.com) and [Anisha Garg](mailto:anishagarg2806@gmail.com)  
 > **Affiliation:** Department of Chemistry, School of Advanced Sciences and Languages (SASL), Vellore Institute of Technology (VIT), Bhopal, Madhya Pradesh 466114, India  
-> **Target Journal:** *Digital Discovery* (Royal Society of Chemistry)
 
 ---
 
 ## 🔬 Repository Overview
 
-Modern machine learning surrogates for quantum chemistry accelerate electronic structure calculations by up to five orders of magnitude while preserving essential physical symmetries ($\mathrm{SO}(3)$ / $\mathrm{E}(3)$ equivariance). This repository consolidates the public benchmark datasets, Conceptual DFT indices, and operator-learning representations surveyed throughout the review.
+Modern machine learning surrogates for quantum chemistry accelerate electronic structure calculations by up to five orders of magnitude while preserving essential physical symmetries ($\mathrm{SO}(3)$ / $\mathrm{E}(3)$ equivariance). This repository consolidates the public benchmark datasets, Conceptual DFT indices, operator-learning representations, and complete bibliographic citations surveyed throughout the review.
 
 ```
 Data---MOT-ML-Review/
@@ -23,6 +21,7 @@ Data---MOT-ML-Review/
 ├── LICENSE                             # MIT Open-Source License
 ├── CITATION.cff                        # Citation metadata (CFF format)
 ├── data/
+│   ├── references_and_citations.csv    # Complete catalog of all 35 surveyed literature works
 │   ├── dataset_catalog.json            # Machine-readable catalog with DOIs and accession codes
 │   ├── qm9_fmo_benchmark.csv           # QM9 B3LYP/6-31G(2df,p) frontier molecular orbitals
 │   ├── qm9_fmo_calculated.csv          # Conceptual DFT reactivity indices (eta, mu, omega)
@@ -45,6 +44,7 @@ Data---MOT-ML-Review/
 
 | Dataset | Primary Scope | Quantum Chemical Level | Key Properties |
 | :--- | :--- | :--- | :--- |
+| **`references_and_citations.csv`** | Literature foundation | All 35 surveyed papers | Ref Number (1..35), Full Citation, Thematic Category, Key Contribution |
 | **`qm9_fmo_benchmark.csv`** | Small organic molecules ($\le 9$ heavy atoms) | B3LYP/6-31G(2df,p) | $\varepsilon_{\text{HOMO}}$, $\varepsilon_{\text{LUMO}}$, Gap, $\mu$, ZPVE |
 | **`qm9_fmo_calculated.csv`** | Conceptual DFT descriptors | Parr--Pearson formalism | Hardness ($\eta$), Chem Potential ($\mu$), Electrophilicity ($\omega$) |
 | **`pubchemqc_benchmark.csv`** | Drug-like & heteroaromatic molecules | B3LYP/6-31G* | Total Energy, Dipole, $\lambda_{\max}$ UV-Vis excitation |
@@ -97,13 +97,11 @@ python3 scripts/download_full_qm9.py
 If you use these benchmark datasets or reference this work in your research, please cite:
 
 ```bibtex
-@article{mishra2026integrating,
-  author    = {Mishra, Vedant and Garg, Anisha},
-  title     = {Integrating Molecular Orbital Theory with Machine Learning: Practical Frameworks, Operator Approximations, and Physical Symmetries},
-  journal   = {Digital Discovery},
-  year      = {2026},
-  publisher = {Royal Society of Chemistry},
-  note      = {Data repository available at: https://github.com/vmishra06-cdk/Data---MOT-ML-Review}
+@misc{mishra_mot_ml_review,
+  author       = {Mishra, Vedant and Garg, Anisha},
+  title        = {Integrating Molecular Orbital Theory with Machine Learning: Practical Frameworks, Operator Approximations, and Physical Symmetries},
+  howpublished = {Open Access Benchmark Repository},
+  url          = {https://github.com/vmishra06-cdk/Data---MOT-ML-Review}
 }
 ```
 

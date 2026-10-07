@@ -1,6 +1,6 @@
 {
-  "title": "Data and Benchmark Repository for 'Integrating Molecular Orbital Theory with Machine Learning'",
-  "journal": "Digital Discovery (Royal Society of Chemistry)",
+  "title": "Comprehensive Data and Benchmark Repository: Integrating Molecular Orbital Theory with Machine Learning",
+  "document_type": "Review Manuscript / Benchmark Repository",
   "authors": [
     {
       "name": "Vedant Mishra",
@@ -14,6 +14,14 @@
     }
   ],
   "datasets": [
+    {
+      "id": "Review-Bibliography",
+      "name": "Curated References and Literature Citations",
+      "size": "35 peer-reviewed works",
+      "target_properties": ["LCAO Foundations", "Equivariant GNNs", "Electronic Hamiltonians", "Benchmark Datasets", "Domain Case Studies"],
+      "file_path": "data/references_and_citations.csv",
+      "description": "Complete bibliographic catalog of all 35 seminal papers analyzed in the review, categorized by thematic domain with summaries of their key scientific contributions."
+    },
     {
       "id": "QM9",
       "name": "QM9 Quantum Chemical Benchmark Dataset",
