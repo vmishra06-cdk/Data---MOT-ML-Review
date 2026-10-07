@@ -1,0 +1,76 @@
+{
+  "title": "Data and Benchmark Repository for 'Integrating Molecular Orbital Theory with Machine Learning'",
+  "journal": "Digital Discovery (Royal Society of Chemistry)",
+  "authors": [
+    {
+      "name": "Vedant Mishra",
+      "email": "vedantmishra0605@gmail.com",
+      "affiliation": "Department of Chemistry, School of Advanced Sciences and Languages (SASL), Vellore Institute of Technology (VIT), Bhopal, Madhya Pradesh 466114, India"
+    },
+    {
+      "name": "Anisha Garg",
+      "email": "anishagarg2806@gmail.com",
+      "affiliation": "Department of Chemistry, School of Advanced Sciences and Languages (SASL), Vellore Institute of Technology (VIT), Bhopal, Madhya Pradesh 466114, India"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "QM9",
+      "name": "QM9 Quantum Chemical Benchmark Dataset",
+      "size": "133,885 organic molecules",
+      "quantum_level": "B3LYP/6-31G(2df,p)",
+      "target_properties": ["HOMO", "LUMO", "HOMO-LUMO Gap", "Dipole Moment", "Isotropic Polarizability", "ZPVE", "Internal Energy", "Enthalpy", "Free Energy"],
+      "repository_name": "Figshare",
+      "repository_url": "https://doi.org/10.6084/m9.figshare.c.978904.v5",
+      "accession_number": "978904",
+      "doi": "10.6084/m9.figshare.c.978904.v5",
+      "secondary_archive": "Materials Cloud Archive (accession: 2020.0026)",
+      "citation": "Ramakrishnan, R.; Dral, P. O.; Rupp, M.; von Lilienfeld, O. A. Quantum Chemistry Structures and Properties of 134 Kilo Molecules. Sci. Data 2014, 1, 140022."
+    },
+    {
+      "id": "PubChemQC",
+      "name": "PubChemQC Project Database",
+      "size": "3,980,000+ molecules",
+      "quantum_level": "B3LYP/6-31G* and PM6",
+      "target_properties": ["Frontier Molecular Orbitals", "Total Energy", "Excited States (TD-DFT)", "Dipole Moments"],
+      "repository_name": "RIKEN PubChemQC",
+      "repository_url": "http://pubchemqc.riken.jp/",
+      "accession_code": "PubChemQC-PM6 / PubChemQC-B3LYP",
+      "citation": "Nakata, M.; Shimazaki, T. PubChemQC Project: A Large-Scale First-Principles Electronic Structure Database for Data-Driven Chemistry. J. Chem. Inf. Model. 2017, 57, 1300–1308."
+    },
+    {
+      "id": "ANI-1",
+      "name": "ANI-1 Neural Network Potential & Electronic Benchmark",
+      "size": "22,000,000+ off-equilibrium conformations",
+      "quantum_level": "wB97X/6-31G*",
+      "target_properties": ["Potential Energy Surfaces", "Non-Equilibrium Geometries", "Atomic Forces"],
+      "repository_name": "Zenodo",
+      "repository_url": "https://doi.org/10.5281/zenodo.1184918",
+      "accession_number": "1184918",
+      "doi": "10.5281/zenodo.1184918",
+      "citation": "Smith, J. S.; Isayev, O.; Roitberg, A. E. ANI-1: An Extensible Neural Network Potential with DFT Accuracy at Force Field Computational Cost. Chem. Sci. 2017, 8, 3192–3203."
+    },
+    {
+      "id": "Harvard-CEP",
+      "name": "Harvard Clean Energy Project (CEP)",
+      "size": "2,300,000 organic molecules",
+      "quantum_level": "BP86/def2-SVP and B3LYP",
+      "target_properties": ["HOMO", "LUMO", "Optical Bandgap", "Power Conversion Efficiency (PCE)"],
+      "repository_name": "Harvard Dataverse",
+      "repository_url": "https://doi.org/10.7910/DVN/944NX4",
+      "accession_number": "DVN/944NX4",
+      "doi": "10.7910/DVN/944NX4",
+      "citation": "Hachmann, J. et al. The Harvard Clean Energy Project: Large-Scale Computational Screening and Design of Organic Photovoltaics on the World Community Grid. J. Phys. Chem. Lett. 2011, 2, 2241–2251."
+    },
+    {
+      "id": "ChEMBL",
+      "name": "ChEMBL Bioactivity & Kinase Inhibitor Database",
+      "size": "2,400,000+ compounds",
+      "target_properties": ["Kinase Inhibition (IC50, Ki)", "Target Covalent Warheads", "Bioactivity Classification"],
+      "repository_name": "EMBL-EBI ChEMBL",
+      "repository_url": "https://www.ebi.ac.uk/chembl/",
+      "accession_code": "CHEMBL28",
+      "citation": "Jiménez-Luna, J.; Grisoni, F.; Schneider, G. Drug Discovery with Explainable Artificial Intelligence. Nat. Mach. Intell. 2020, 2, 573–584."
+    }
+  ]
+}

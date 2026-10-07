@@ -1,0 +1,16 @@
+complex_id,metal_center,oxidation_state,d_electron_count,coordination_geom,ligand_field,ligand_names,spin_multiplicity,ground_state_spin,homo_lumo_splitting_eV,delta_oct_kcal_mol
+TM_001,Fe,II,d6,Octahedral,Strong-field,[Fe(CN)6]4-,1,Low-Spin,3.85,88.8
+TM_002,Fe,II,d6,Octahedral,Weak-field,[Fe(H2O)6]2+,5,High-Spin,1.28,29.5
+TM_003,Fe,III,d5,Octahedral,Strong-field,[Fe(CN)6]3-,2,Low-Spin,3.42,78.9
+TM_004,Fe,III,d5,Octahedral,Weak-field,[Fe(H2O)6]3+,6,High-Spin,1.74,40.1
+TM_005,Fe,II,d6,Octahedral,Crossover,[Fe(phen)2(NCS)2],1/5,Spin-Crossover,2.15,49.6
+TM_006,Co,III,d6,Octahedral,Strong-field,[Co(NH3)6]3+,1,Low-Spin,3.92,90.4
+TM_007,Co,II,d7,Octahedral,Weak-field,[Co(H2O)6]2+,4,High-Spin,1.16,26.8
+TM_008,Ni,II,d8,Octahedral,Weak-field,[Ni(H2O)6]2+,3,High-Spin,1.05,24.2
+TM_009,Ni,II,d8,Square-Planar,Strong-field,[Ni(CN)4]2-,1,Low-Spin,3.10,71.5
+TM_010,Mn,II,d5,Octahedral,Weak-field,[Mn(H2O)6]2+,6,High-Spin,0.98,22.6
+TM_011,Cr,III,d3,Octahedral,Intermediate,[Cr(H2O)6]3+,4,High-Spin,2.16,49.8
+TM_012,Cu,II,d9,Jahn-Teller-Oct,[Cu(H2O)6]2+,2,High-Spin,1.55,35.7
+TM_013,Fe,II,d6,Octahedral,Crossover,[Fe(bipy)2(NCS)2],1/5,Spin-Crossover,2.18,50.3
+TM_014,Ru,II,d6,Octahedral,Strong-field,[Ru(bipy)3]2+,1,Low-Spin,2.84,65.5
+TM_015,Co,II,d7,Tetrahedral,Weak-field,[CoCl4]2-,4,High-Spin,0.52,12.0

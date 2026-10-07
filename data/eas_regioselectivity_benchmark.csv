@@ -1,0 +1,16 @@
+compound_id,substrate_name,smiles,directing_group,electronic_effect,c_ortho_fmo_coeff,c_meta_fmo_coeff,c_para_fmo_coeff,major_regioisomer,experimental_ratio_ortho_meta_para,wheland_intermediate_stability
+EAS_001,Toluene,Cc1ccccc1,-CH3,Weak activating (+I / hyperconjugation),0.285,0.062,0.312,Ortho/Para,58:4:38,Stabilized by tertiary carbocation
+EAS_002,Phenol,Oc1ccccc1,-OH,Strong activating (+M > -I),0.340,0.035,0.415,Ortho/Para,40:0:60,Stabilized by oxygen lone-pair resonance
+EAS_003,Anisole,COc1ccccc1,-OCH3,Strong activating (+M > -I),0.325,0.040,0.395,Ortho/Para,35:2:63,Stabilized by oxygen lone-pair resonance
+EAS_004,Aniline,Nc1ccccc1,-NH2,Very strong activating (+M),0.365,0.025,0.440,Ortho/Para,28:2:70,Stabilized by nitrogen lone-pair resonance
+EAS_005,Acetanilide,CC(=O)Nc1ccccc1,-NHCOCH3,Moderate activating (+M attenuated),0.295,0.045,0.360,Ortho/Para,19:2:79,Resonance delocalized into carbonyl
+EAS_006,Nitrobenzene,O=[N+]([O-])c1ccccc1,-NO2,Strong deactivating (-M, -I),0.045,0.220,0.035,Meta,6:93:1,Destabilized at ortho/para by adjacent +
+EAS_007,Benzaldehyde,O=Cc1ccccc1,-CHO,Moderate deactivating (-M, -I),0.075,0.210,0.065,Meta,19:72:9,Destabilized at ortho/para by delta+
+EAS_008,Benzoic Acid,O=C(O)c1ccccc1,-COOH,Moderate deactivating (-M, -I),0.080,0.205,0.070,Meta,18:80:2,Destabilized at ortho/para by delta+
+EAS_009,Benzonitrile,N#Cc1ccccc1,-CN,Strong deactivating (-M, -I),0.060,0.215,0.055,Meta,17:81:2,Destabilized at ortho/para by delta+
+EAS_010,Chlorobenzene,Clc1ccccc1,-Cl,Weak deactivating (-I > +M),0.245,0.070,0.290,Ortho/Para,30:1:69,Directs ortho/para via halogen lone-pair
+EAS_011,Fluorobenzene,Fc1ccccc1,-F,Weak deactivating (-I ~ +M),0.190,0.060,0.340,Ortho/Para,12:1:87,Strong 2p-2p pi-overlap at para
+EAS_012,Pyridine,c1ccncc1,Ring N (heteroaromatic),Strong ring deactivation (-I, -M),0.030,0.240,0.040,C3 (Beta/Meta),0:100:0,C2/C4 protonation yields unstable pyr-ion
+EAS_013,Thiophene,c1ccsc1,Ring S (heteroaromatic),Pi-excessive aromatic,0.480,0.110,N/A,C2 (Alpha),95:5:0,Alpha intermediate has 3 resonance forms
+EAS_014,Pyrrole,c1cc[nH]c1,Ring NH (heteroaromatic),Very strong pi-excessive,0.520,0.090,N/A,C2 (Alpha),92:8:0,Alpha intermediate has 3 resonance forms
+EAS_015,Indole,c1ccc2[nH]ccc2c1,Fused bicyclic,Heteroaromatic enamine-like,N/A,N/A,N/A,C3 (Beta),0:100:0,C3 attack preserves benzene aromaticity

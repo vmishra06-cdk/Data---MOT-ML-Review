@@ -1,0 +1,11 @@
+candidate_id,oligomer_name,backbone_motif,donor_acceptor_type,homo_energy_eV,lumo_energy_eV,bandgap_Eg_eV,voc_surrogate_V,predicted_pce_pct,dft_level
+CEP_0001,P3HT_dimer,Thiophene-thiophene,Polythiophene donor,-5.12,-2.85,2.27,0.65,4.8,B3LYP/6-31G*
+CEP_0002,PTB7_core,Benzodithiophene-thienothiophene,Low-bandgap donor,-5.28,-3.45,1.83,0.76,9.2,B3LYP/6-31G*
+CEP_0003,PM6_core,Fluorinated BDT-BDD,Wide-bandgap donor,-5.45,-3.65,1.80,0.98,16.5,B3LYP/6-31G*
+CEP_0004,ITIC_acceptor,Indacenodithieno-INDA,Non-fullerene acceptor,-5.60,-4.02,1.58,0.92,11.8,B3LYP/6-31G*
+CEP_0005,Y6_acceptor,BTP-4F core,Non-fullerene acceptor,-5.68,-4.25,1.43,0.85,17.2,B3LYP/6-31G*
+CEP_0006,PC61BM_fullerene,[6,6]-Phenyl-C61-butyric acid,Fullerene acceptor,-5.90,-4.10,1.80,0.82,6.5,B3LYP/6-31G*
+CEP_0007,PC71BM_fullerene,[6,6]-Phenyl-C71-butyric acid,Fullerene acceptor,-5.85,-4.15,1.70,0.84,7.8,B3LYP/6-31G*
+CEP_0008,PBDB-T_core,Benzo[1,2-b:4,5-b']dithiophene,Medium-bandgap donor,-5.33,-3.53,1.80,0.90,14.2,B3LYP/6-31G*
+CEP_0009,D18_core,Dithienobenzothiadiazole,High-mobility donor,-5.51,-3.52,1.99,1.10,18.2,B3LYP/6-31G*
+CEP_0010,L8-BO_acceptor,Chiral branched BTP-4F,Non-fullerene acceptor,-5.72,-4.31,1.41,0.87,18.8,B3LYP/6-31G*

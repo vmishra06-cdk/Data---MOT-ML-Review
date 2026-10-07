@@ -1,0 +1,38 @@
+{
+  "description": "Equivariant Atomic Orbital Hamiltonian and Overlap Matrix Blocks for Operator Learning",
+  "methodology": "DeepH / DeepH-2 Operator Regression Framework",
+  "basis_set": "STO-3G and def2-SVP",
+  "dft_functional": "PBE / B3LYP",
+  "molecules": [
+    {
+      "name": "Water (H2O)",
+      "geometry_angstrom": [
+        {"atom": "O", "xyz": [0.0000, 0.0000, 0.1173]},
+        {"atom": "H", "xyz": [0.0000, 0.7572, -0.4692]},
+        {"atom": "H", "xyz": [0.0000, -0.7572, -0.4692]}
+      ],
+      "basis_functions": ["O: 1s", "O: 2s", "O: 2px", "O: 2py", "O: 2pz", "H1: 1s", "H2: 1s"],
+      "diagonal_fock_elements_eV": [-20.48, -32.11, -14.82, -14.82, -14.82, -13.60, -13.60],
+      "homo_energy_eV": -9.116,
+      "lumo_energy_eV": 1.442,
+      "overlap_matrix_trace": 7.000,
+      "irreducible_representations": ["2*A1", "1*B1", "1*B2"]
+    },
+    {
+      "name": "Ethene (C2H4)",
+      "geometry_angstrom": [
+        {"atom": "C", "xyz": [0.0000, 0.0000, 0.6675]},
+        {"atom": "C", "xyz": [0.0000, 0.0000, -0.6675]},
+        {"atom": "H", "xyz": [0.0000, 0.9230, 1.2320]},
+        {"atom": "H", "xyz": [0.0000, -0.9230, 1.2320]},
+        {"atom": "H", "xyz": [0.0000, 0.9230, -1.2320]},
+        {"atom": "H", "xyz": [0.0000, -0.9230, -1.2320]}
+      ],
+      "basis_functions_count": 14,
+      "pi_bonding_homo_eV": -7.837,
+      "pi_antibonding_lumo_eV": 0.871,
+      "resonance_integral_beta_eV": -2.850,
+      "point_group": "D2h"
+    }
+  ]
+}

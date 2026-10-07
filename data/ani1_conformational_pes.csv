@@ -1,0 +1,11 @@
+trajectory_id,smiles,molecule_name,dihedral_type,torsion_angle_deg,relative_energy_kcal_mol,relative_energy_eV,wb97x_energy_Hartree,max_force_eV_A,conformation_type
+ANI1_PES_001,CC,Ethane,H-C-C-H,0.0,0.0,0.0,-79.8302,0.0,Staggered minimum
+ANI1_PES_002,CC,Ethane,H-C-C-H,60.0,2.92,0.127,-79.8255,0.045,Eclipsed transition state
+ANI1_PES_003,CC,Ethane,H-C-C-H,120.0,0.0,0.0,-79.8302,0.0,Staggered minimum
+ANI1_PES_004,CCCC,n-Butane,C-C-C-C,180.0,0.0,0.0,-158.461,0.0,Anti minimum (global)
+ANI1_PES_005,CCCC,n-Butane,C-C-C-C,120.0,3.45,0.15,-158.4555,0.052,Eclipsed transition state
+ANI1_PES_006,CCCC,n-Butane,C-C-C-C,60.0,0.88,0.038,-158.4596,0.0,Gauche minimum (local)
+ANI1_PES_007,CCCC,n-Butane,C-C-C-C,0.0,5.82,0.252,-158.4517,0.088,Syn-periplanar barrier
+ANI1_PES_008,CC(=O)NC(C)C(=O)NC,Alanine Dipeptide,Phi / Psi,-140.0,0.0,0.0,-493.2104,0.0,C7eq conformation (beta-sheet)
+ANI1_PES_009,CC(=O)NC(C)C(=O)NC,Alanine Dipeptide,Phi / Psi,-60.0,2.15,0.093,-493.207,0.035,Alpha-R helical basin
+ANI1_PES_010,CC(=O)NC(C)C(=O)NC,Alanine Dipeptide,Phi / Psi,60.0,6.4,0.278,-493.2002,0.075,Alpha-L high-energy basin

@@ -1,0 +1,11 @@
+warhead_id,warhead_class,canonical_smiles,warhead_formula,lumo_energy_eV,homo_energy_eV,chemical_hardness_eV,electrophilicity_omega_eV,target_residue,reactivity_profile,clinical_example
+WH_001,Acrylamide,NC(=O)C=C,-NH-C(=O)-CH=CH2,-1.82,-7.15,2.66,3.77,Cysteine (Cys),Mild electrophile / irreversible,Osimertinib / Ibrutinib
+WH_002,Chloroacetamide,NC(=O)CCl,-NH-C(=O)-CH2-Cl,-2.15,-7.48,2.66,4.35,Cysteine (Cys),Moderate electrophile / alkylation,Afatinib
+WH_003,Vinyl Sulfonamide,NS(=O)(=O)C=C,-SO2-CH=CH2,-2.40,-7.82,2.71,4.81,Cysteine (Cys),Strong electron withdrawal / rapid,Discovery leads
+WH_004,Cyanoacrylamide,NC(=O)C(C#N)=C,-NH-C(=O)-C(CN)=CH2,-2.85,-7.60,2.37,5.75,Cysteine (Cys),Reversible covalent addition,Rilzabrutinib
+WH_005,Ethynyl Sulfonamide,NS(=O)(=O)C#C,-SO2-C#CH,-3.10,-8.05,2.47,6.31,Cysteine (Cys),High reactivity / hyper-electrophile,Tool compound
+WH_006,Fluoromethylketone,CC(=O)CF,-C(=O)-CH2-F,-1.95,-7.30,2.67,4.01,Serine / Cysteine,Protease inhibitor,Z-VAD-FMK
+WH_007,Sulfonyl Fluoride,c1ccccc1S(=O)(=O)F,-SO2-F,-2.60,-7.90,2.65,5.19,Tyrosine / Lysine,Context-dependent SuFEx,SuFEx probes
+WH_008,Methacrylamide,NC(=O)C(=C)C,-NH-C(=O)-C(CH3)=CH2,-1.65,-6.95,2.65,3.49,Cysteine (Cys),Sterically attenuated / mild,Sotorasib
+WH_009,2-Chloroethylurea,NC(=O)NCCCl,-NH-C(=O)-NH-CH2CH2Cl,-1.90,-7.20,2.65,3.89,Cysteine (Cys),Slow alkylator,Nimustine
+WH_010,Maleimide,O=C1C=CC(=O)N1,-C(=O)-CH=CH-C(=O)N-,-2.72,-7.45,2.36,5.49,Cysteine (Cys),Fast conjugate addition,Antibody-drug conjugates
